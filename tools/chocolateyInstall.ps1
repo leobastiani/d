@@ -6,3 +6,4 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 Install-BinFile -Name 'd' -Path (Join-Path (Join-Path $toolsDir 'bin') 'd.bat')
 Install-BinFile -Name 'h' -Path (Join-Path (Join-Path $toolsDir 'bin') 'h.bat')
 Install-BinFile -Name 'r' -Path (Join-Path (Join-Path $toolsDir 'bin') 'r.bat')
+Install-BinFile -Name 's' -Path (Join-Path (Join-Path $toolsDir 'bin') 's.bat')

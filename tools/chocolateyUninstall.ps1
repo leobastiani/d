@@ -3,3 +3,4 @@
 Uninstall-BinFile "d"
 Uninstall-BinFile "h"
 Uninstall-BinFile "r"
+Uninstall-BinFile "s"
