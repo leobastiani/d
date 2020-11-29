@@ -1,4 +1,4 @@
 @ECHO OFF
 
 nircmd sendkeypress capslock
-wait %* && shutdown -r -t 0
+call wait %* && shutdown -r -t 0
