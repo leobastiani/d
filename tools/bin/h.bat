@@ -1,5 +1,5 @@
 @ECHO OFF
 
 nircmd sendkeypress capslock
-wait %* && nircmd hibernate
+call wait %* && nircmd hibernate
 nircmd sendkeypress capslock

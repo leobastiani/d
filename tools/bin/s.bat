@@ -1,5 +1,5 @@
 @ECHO OFF
 
 nircmd sendkeypress capslock
-wait %* && nircmd standby
+call wait %* && nircmd standby
 nircmd sendkeypress capslock
